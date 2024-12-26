@@ -1,0 +1,12 @@
+# .air.toml
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  cmd = "go build -o ./tmp/main ."
+  bin = "tmp/main"
+  include_ext = ["go", "js", "html", "css"] # Include JS files
+  exclude_dir = ["assets", "vendor"]
+
+[watch]
+  include_ext = ["go", "js", "html", "css"] # Watch for changes in JS files
