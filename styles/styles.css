@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Light blue background */
+}
+header {
+    background-color: #007bff; /* Blue header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+header h1 {
+    background: linear-gradient(90deg, #ff5733, #33ff57, #33ff57);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make text fill transparent */
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Space between title and logos */
+}
+.logo-container img {
+    height: 40px; /* Adjust height as needed */
+    margin: 0 10px; /* Space between logos */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+input[type="text"]:hover, input[type="file"]:hover {
+    background-color: #cce5ff; /* Lighter blue on hover */
+}
+button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.rules {
+    margin-top: 10px; /* Space above the rules section */
+}
+.rule-item {
+    font-size: 20px; /* Set desired font size */
+    line-height: 1; /* Space between lines */
+    margin-bottom: 15px; /* Space between rule items */
+    color: #333; /* Dark text for readability */
+}
+.rule-item img {
+    height: 1em; /* Set image height to match text size */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between text and image */
+    vertical-align: middle; /* Align with text baseline */
+}
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.card-type {
+    font-weight: bold;
+}
+.upload_button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.validate_button{
+    margin-top: 10px;
+}
