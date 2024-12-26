@@ -69,9 +69,9 @@ Before running the application, ensure you have the following installed:
 
 To start the application with hot reloading using Air, run:
 
-    ```bash
-    air
-    ```
+```bash
+air
+```
 
 The server will start on `http://localhost:8080`, and any changes you make to your code will automatically trigger a reload.
 
@@ -84,19 +84,19 @@ The server will start on `http://localhost:8080`, and any changes you make to yo
 **Method**: `POST`
 
 **Request Body**:
-    ```json
+```json
     {
         "cardNumber": " "
     }
-    ```
+```
 
 **Response**:
-    ```json
+```json
     {
         "valid": true,
         "message": "Valid credit card number."
     }
-    ```
+```
 
 #### 2. Encrypt Credit Card Number
 
@@ -105,18 +105,18 @@ The server will start on `http://localhost:8080`, and any changes you make to yo
 **Method**: `POST`
 
 **Request Body**:
-    ```json
+```json
     {
         "cardNumber": " "
     }
-    ```
+```
 
 **Response**:
-    ```json
+```json
     {
         "encryptedCardNumber": "base64_encoded_encrypted_string"
     }
-    ```
+```
 
 #### 3. Decrypt Credit Card Number
 
@@ -125,18 +125,18 @@ The server will start on `http://localhost:8080`, and any changes you make to yo
 **Method**: `POST`
 
 **Request Body**:
-    ```json
+```json
     {
         "encryptedCardNumber": "base64_encoded_encrypted_string"
     }
-    ```
+```
 
 **Response**:
-    ```json
+```json
     {
         "decryptedCardNumber": " "
     }
-    ```
+```
 
 ## Security Considerations
 
@@ -148,9 +148,9 @@ The server will start on `http://localhost:8080`, and any changes you make to yo
 
 You can run tests using Go's built-in testing framework. To execute tests, run:
 
-    ```bash
+```bash
     go test ./...
-    ```
+```
 
 ## Contributing
 
